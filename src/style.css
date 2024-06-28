@@ -260,7 +260,7 @@ aspect-ratio: 1/1;
 
 .toggle-button {
 position: absolute;
-top:0px;
+top:15px;
 right:15px;
 display: none;
 flex-direction: column;
