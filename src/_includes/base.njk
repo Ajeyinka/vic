@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+    <meta name="description" content="{{ desc }}">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    {% include 'header.njk' %}
+    <main>
+       
+        <div>
+          {{ content | safe }} 
+        </div>
+       
+       
+      </main>
+      {% include 'footer.njk' %}
+</body>
+<script src="../bundle.js"></script>
+</html>
